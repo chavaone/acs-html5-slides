@@ -203,7 +203,7 @@ body {
 }
 
 .reveal em {
-	color: #77A854;
+	color: #ed4732;
 	font-style: normal;
 	font-weight: bold;
 }
@@ -281,3 +281,9 @@ pre {
   overflow: visible;
 }
 
+.reveal section img{
+  padding-left: 1em;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
