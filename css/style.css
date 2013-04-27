@@ -287,3 +287,27 @@ pre {
   border: none;
   box-shadow: none;
 }
+
+.checklist li {
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.reveal .tick {
+  color: green;
+  float: left;
+  padding-right: 1em;
+}
+
+.reveal .cross {
+  color: red;
+  float: left;
+  padding-right: 1em;
+}
+
+.reveal .guion {
+  font-weight: bolder;
+  color: yellow;
+  float: left;
+  padding-right: 1em;
+}
