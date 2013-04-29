@@ -60,6 +60,9 @@
 			<section>
 				<h2><em>W3</em>C</h2>
 				<p>Organismo que publica os estandares de HTML.</p>
+				<aside class="notes">
+					W3C (World Wide Web Consortium)
+				</aside>
 			</section>
 
 			<section>
@@ -89,6 +92,9 @@
 				<img height="170px" src="img/mozilla.png">
 				<br/>
 				<img height="150px" src="img/opera.png">
+				<aside class="notes">
+					WHATWG (Web Hypertext Application Technology Working Group)
+				</aside>
 			</section>
 
 			<section>
@@ -111,38 +117,97 @@
 				<h2><img width="75px" src="img/semantica.png"><em>Semantica</em></h2>
 				<p>Engade novas etiquetas semanticas. (&lt;section>, &lt;article>, &lt;aside>,...)<p>
 				<aside class="notes">
-					adkjfaklsdjf
+					En anteriores versiones de HTML, unicamente se basaba en una serie divs que no aportaban niguna 
+					semantica, lo cual no es muy bueno para buscadores y otro tipo de parses.
+					Por ello se decidio añadir diversas etiquetas semanticas como por ejemplo...
 				</aside>
 			</section>
 
 			<section>
 				<h2><img width="75px" src="img/estilo.png"><em>Estilos</em></h2>
 				<p>Mellora notablemente as posibilidades das follas de estilo (<em>CSS</em>).<p>
+				<aside class="notes">
+					rotaciones,desplazamientos,transiciones e incluso transformaciones en 3D a cualquier elemento DOM
+					DEMO:
+					http://www.html5rocks.com/es/features/presentation
+				</aside>
 			</section>
 
 			<section>
 				<h2><img width="75px" src="img/multimedia.png"><em>Multimedia</em></h2>
 				<p>Soporte de elementos multimedia de forma nativa. (&lt;audio> e &lt;video>)<p>
+				<h2 class="fragment"><em>Proximamente:</em> Audio Data API,Timed Track API<h2>
+				<aside class="notes">
+					<ul>
+						<li>proximamente: AUDIO DATA API,Timed Track API escribir datos sin procesar en archivos de audio, manipular subtitulos...</li>
+						<li>gran potencial conbinado con CANVAS, SVG y WEBGL</li>
+					</ul>
+				</aside>
 			</section>
 
 			<section>
 				<h2><img width="75px" src="img/disenho.png"><em>Graficos</em></h2>
-				<p>SVG, canvas 2D, transformaciones 3D CSS, WebGL, etc.<p>
+				<p>SVG, canvas 2D, transformacions 3D CSS, WebGL, etc.<p>
+				<aside class="notes">
+					<ul>
+						<li>canvas: generación de gráficos dinámicamente por medio del scripting</li>
+						<li>webGL: mostrar graficos 3D sin plugins en plataformas q lo soporten</li>
+					</ul>
+					DEMO:
+					http://craftymind.com/factory/html5video/CanvasVideo.html
+					http://studio.html5rocks.com/#PiP
+				</aside>
 			</section>
 
 			<section>
 				<h2><img width="75px" src="img/offline.png">Almacenamento <em>Offline</em></h2>
-				<p>Caches de aplicaciones, almacenamento local (locaStorage), web SQL, etc.</p>
+				<p>Caches de aplicacions, almacenamento local (localStorage), etc.</p>
+				<hr/>
+				<h2 class="fragment"><em>Web SQL -> IndexedDB</em><h2>
+				<aside class="notes">
+					<ul>
+						<li>W3C anunció deja soportar WEBSQL->IndexedDB </li>
+						<li>almacén de objetos que funciona de manera TRANSACCIONAL.</li>
+						<li>Las bases de datos web se alojan y se guardan en el navegador del usuario.</li>
+						<li>Apps web trabajar ONLINE y OFFLINE.</li>
+					</ul>
+				</aside>
 			</section>
 
 			<section>
 				<h2><img width="75px" src="img/files.png">Sistema de <em>Ficheiros</em></h2>
-				<p>Interación co sistema de ficheiros do SO a traves da API de HTML5.</p>
+				<p>Interación co sistema de ficheiros do SO a traves da FileSystem API de HTML5.</p>
+				<hr/>
+				<h2 class="fragment">Drag and Drop<h2>
+				<aside class="notes">
+					<ul>
+						<li>Con esta API, una aplicación web puede crear, leer, explorar y editar archivos en local</li>
+						<li>Drag and Drop</li>
+					</ul>
+				</aside>
 			</section>
 
 			<section>
 				<h3>Conectividade<img width="75px" src="img/conect.png"></h3>
+				<p><em>WebSockets:</em> Conexión bidireccional entre cliente e servidor.</p>
+				<p><em>Server_Sent Events:</em> Eventos emitidos polo servidor e recibidos polo cliente/navegador.</p>
+				<aside class="notes">
+					SERVER SENT EJ: un cliente de twitter en el que solo tengamos que actualizar los nuevos twits que nos llegan.
+				</aside>
+			</section>
+			
+			<section>
 				<h3><img width="75px" src="img/performance.png">Rendemento</h3>
+				<h2 class="fragment">Mellorar a experiencia de usuario.<h2>
+				<h2 class="fragment"><em>Mellorar resultados finais</em><h2>
+				<aside class="notes">
+					<ul>
+						<il>caches</il>
+						<il>IndexedDB (ALMACENAMIENTO OFFLINE)</il>
+						<il>Combinar muchas imágenes pequeñas en una imagen reduce las descargas.</il>
+						<il>PRECARGA ENLACES</il>
+					</ul>
+				</aside>
 			</section>
 		</section>
 
